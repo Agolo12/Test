@@ -50,5 +50,5 @@ while True:
         send_request(token)
         time.sleep(2)  # Small delay between accounts to avoid rate limits
     
-    print("Waiting 5 minutes before the next cycle...")
-    time.sleep(120)  # Wait for 5 minutes before restarting
+    print("Waiting 3 minutes before the next cycle...")
+    time.sleep(180)  # Wait for 5 minutes before restarting
